@@ -1,0 +1,135 @@
+/* =========================================
+   GLOBAL
+========================================= */
+
+body {
+    background-color: #f5f7fb;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 16px;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar-brand {
+    letter-spacing: 0.3px;
+}
+
+
+/* =========================================
+   DASHBOARD
+========================================= */
+
+.stat-card {
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+}
+
+
+/* =========================================
+   APPLICATION CARD
+========================================= */
+
+.application-card {
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.application-card:hover {
+    transform: translateY(-4px);
+}
+
+
+/* =========================================
+   FORMS
+========================================= */
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+}
+
+
+/* =========================================
+   AI CARD
+========================================= */
+
+.ai-card {
+    border: none;
+    border-radius: 18px;
+}
+
+.match-score {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    margin-top: auto;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+
+}
